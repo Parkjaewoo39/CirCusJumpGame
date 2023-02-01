@@ -59,10 +59,8 @@ public class PlayerController : MonoBehaviour
         }
         if (JumpMove)
         {
-            
-
             //animator.SetBool("", true);
-
+            GFunc.Log($"{JumpMove}dd");
             moveVal = new Vector3(0f, 1f, 0f);
             playerRigid.AddForce(new Vector3(0f, jumpForce, 0f));
             JumpMove= false;
