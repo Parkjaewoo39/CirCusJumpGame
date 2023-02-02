@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     private bool isGround = false;
     private bool isDead = false;
     private bool isRun = false;
+    private bool isWinGround = false;
 
     public bool LeftMove = false;
     public bool RightMove = false;
@@ -99,6 +100,7 @@ public class PlayerController : MonoBehaviour
     public void Hit()
     {
         GFunc.LoadScene(GData.SCENE_NAME_PLAY);
+        Time.timeScale = 1f;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -107,8 +109,9 @@ public class PlayerController : MonoBehaviour
         {            
             isGround = true;
             JUMP_COUNT = 0;
-
+            isWinGround = true;
         }
+        
     }   //OnCollisionEnter2D()
 
     private void OnCollisionExit2D(Collision2D collision)
@@ -122,8 +125,16 @@ public class PlayerController : MonoBehaviour
         if (collision.tag == "DeadZone" && !isDead) 
         {
             Die();
-            Invoke("Hit", 2f);
+            Invoke("Hit", 0.02f);
+            Time.timeScale = 0.01f;
         }
+        if (collision.tag == "WinGround" && isDead)
+        {
+
+            Win();
+
+        }
+
     }   //OnTriggerEnter2D()
 
 
@@ -136,6 +147,13 @@ public class PlayerController : MonoBehaviour
         isDead = true;
         
     }   //Die()
+
+    private void Win() 
+    {
+        playerAnimator.SetTrigger("Win");
+        
+        
+    }
     
     
 

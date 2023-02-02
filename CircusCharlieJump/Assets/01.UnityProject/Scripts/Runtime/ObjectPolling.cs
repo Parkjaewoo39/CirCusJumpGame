@@ -10,16 +10,18 @@ public class ObjectPolling : MonoBehaviour
     private int ringCnt = default;
 
     public GameObject ringFirePrefab;
+    public GameObject player;
 
     // Start is called before the first frame update
     void Start()
     {
-        ringCnt = 6;
+        ringCnt = 2;
 
-        Vector3 ringPos = new Vector3(-1200f,0f,0f);
+        Vector3 ringPos = new Vector3(-1200f, 0f,0f);
 
         BigRing = new GameObject[ringCnt];
 
+        transform.position = player.transform.position;
         // 링 만들고 일단 바깥에 놓기
         for (int i = 0; i < ringCnt; i++)
         {
@@ -29,14 +31,14 @@ public class ObjectPolling : MonoBehaviour
         }
 
 
-        Vector3 ringPosRe = new Vector3(0f, 0f, 0f);
+        Vector3 ringPosRe = new Vector3(0f, -185f, 0f);
         // 링 재배치
 
         for (int i = 0; i < ringCnt; i++)
         {
             BigRing[i].transform.localPosition = ringPosRe;
 
-            ringPosRe.x += 1280f;
+            ringPosRe.x += player.transform.localPosition.x + 1280;
 
 
         }
