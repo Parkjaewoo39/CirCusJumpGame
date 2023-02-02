@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: b3b7c07cab64e424db09bf9752e29f6d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CircusSprites 2_38
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 127
+        width: 12
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff480f771dcaf66458a6f5139d343892
+      internalID: 695313386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusSprites 2_43
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 127
+        width: 12
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84f9d6af484ff547ac9b20b69f5392f
+      internalID: 672836707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusSprites 2_46
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 127
+        width: 12
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13889ec885d3d264a8100e57290fbf52
+      internalID: 1167669629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusSprites 2_49
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 127
+        width: 12
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae54aaf8297f0e48bd747612be93b1f
+      internalID: 569588963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusSprites 2_54
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 127
+        width: 12
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c6179148a768f41a41f246b192bf40
+      internalID: 1857181156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusSprites 2_55
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 127
+        width: 12
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab72466e81119f4eb2edc4d562beace
+      internalID: -691645395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusSprites 2_56
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 127
+        width: 12
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8542131dbab8d4e4caf52ad4b2ca5b1b
+      internalID: 1104270708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusSprites 2_57
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 127
+        width: 12
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4ee2f5e6305b74aafd09257321c4ee
+      internalID: 890406987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CircusSprites 2_50: 1109687954
+      CircusSprites 2_39: 747543780
+      CircusSprites 2_10: -765343064
+      CircusSprites 2_72: 36091840
+      CircusSprites 2_68: 1378871600
+      CircusSprites 2_24: 1830997373
+      CircusSprites 2_57: 890406987
+      CircusSprites 2_62: 439576986
+      CircusSprites 2_23: 573094967
+      CircusSprites 2_65: 1882388190
+      CircusSprites 2_51: 1390303571
+      CircusSprites 2_40: 874669095
+      CircusSprites 2_16: 1652321892
+      CircusSprites 2_1: 337290512
+      CircusSprites 2_37: -701091792
+      CircusSprites 2_41: 424715813
+      CircusSprites 2_4: 176096329
+      CircusSprites 2_6: 1081887243
+      CircusSprites 2_29: -132089871
+      CircusSprites 2_61: -122175067
+      CircusSprites 2_0: -620607979
+      CircusSprites 2_22: 630856208
+      CircusSprites 2_35: -1991169438
+      CircusSprites 2_27: -1682182885
+      CircusSprites 2_47: 1639318376
+      CircusSprites 2_5: 888991731
+      CircusSprites 2_34: -80062933
+      CircusSprites 2_28: 707926359
+      CircusSprites 2_44: 2043037536
+      CircusSprites 2_48: -1279661189
+      CircusSprites 2_55: -691645395
+      CircusSprites 2_74: -1646705831
+      CircusSprites 2_30: 1643067114
+      CircusSprites 2_70: -791113208
+      CircusSprites 2_43: 672836707
+      CircusSprites 2_46: 1167669629
+      CircusSprites 2_49: 569588963
+      CircusSprites 2_17: -842629199
+      CircusSprites 2_25: -2130826075
+      CircusSprites 2_2: -1205209884
+      CircusSprites 2_33: -187541935
+      CircusSprites 2_75: -1722209111
+      CircusSprites 2_12: 2086621986
+      CircusSprites 2_31: 805339133
+      CircusSprites 2_26: -1792045826
+      CircusSprites 2_32: -648896143
+      CircusSprites 2_73: 1921898087
+      CircusSprites 2_45: 1857805461
+      CircusSprites 2_3: -1143928152
+      CircusSprites 2_66: 894575409
+      CircusSprites 2_13: -410726581
+      CircusSprites 2_71: 1181226533
+      CircusSprites 2_14: -1200929479
+      CircusSprites 2_20: -1152475817
+      CircusSprites 2_56: 1104270708
+      CircusSprites 2_42: 487368780
+      CircusSprites 2_60: 1637474207
+      CircusSprites 2_15: 760714056
+      CircusSprites 2_38: 695313386
+      CircusSprites 2_7: 91712887
+      CircusSprites 2_36: 466247273
+      CircusSprites 2_52: 650641747
+      CircusSprites 2_11: 104144161
+      CircusSprites 2_54: 1857181156
+      CircusSprites 2_69: 169535310
+      CircusSprites 2_58: 466072824
+      CircusSprites 2_64: -1257621895
+      CircusSprites 2_59: -1851417336
+      CircusSprites 2_18: -667404726
+      CircusSprites 2_53: 666090956
+      CircusSprites 2_8: -1881820443
+      CircusSprites 2_67: 1136502614
+      CircusSprites 2_19: 1482592305
+      CircusSprites 2_21: -1779758606
+      CircusSprites 2_9: 72580180
+      CircusSprites 2_63: -656402015
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - DeadZone
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -15,10 +17,10 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - bg
+  - ring
+  - player
+  - ring2
   - 
   - 
   - 
@@ -46,4 +48,13 @@ TagManager:
     locked: 0
   - name: Front
     uniqueID: 2261068901
+    locked: 0
+  - name: ringin
+    uniqueID: 1643019589
+    locked: 0
+  - name: player
+    uniqueID: 3668052049
+    locked: 0
+  - name: ringout
+    uniqueID: 2269813371
     locked: 0

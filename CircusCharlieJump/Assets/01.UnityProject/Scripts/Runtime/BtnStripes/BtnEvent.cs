@@ -27,6 +27,7 @@ public class BtnEvent : MonoBehaviour
     public void LeftBtnUp()
     {
         playerController.LeftMove = false;
+
     }
     public void RightBtnDown() 
     {
