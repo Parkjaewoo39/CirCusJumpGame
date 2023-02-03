@@ -16,8 +16,25 @@ public class StartBtn : MonoBehaviour
         
     }
 
+    public void LoadingTest()
+    {
+        GFunc.LoadScene(GData.SCENE_NAME_LOAD_STAGE_ONE);
+        Time.timeScale= 0.5f;
+    }
+    public void LoadingAndPlayTest()
+    {
+        GFunc.LoadScene(GData.SCENE_NAME_STAGE_ONE);
+        Time.timeScale = 1.0f;
+    }
     public void OnStartButton() 
     {
-        GFunc.LoadScene(GData.SCENE_NAME_PLAY);
+
+        GFunc.LoadScene(GData.SCENE_NAME_LOAD_STAGE_ONE);
+
+        //Invoke("LoadingAndPlayTest", 1f);
+        //Time.timeScale = 0.5f;
+        //GFunc.LoadScene(GData.SCENE_NAME_LOAD_STAGE_ONE);
+
+
     }
 }

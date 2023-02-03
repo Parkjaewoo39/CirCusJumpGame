@@ -1,45 +1,79 @@
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
+using System.Collections;
 
-
-public class GamieManager : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
+    public GameObject playerPrefab;
     public GameObject gameoverText;
-    public Text TimeText;
-    public Text HiscordText;
-    public Text ScoreText;
-    float playerScore;
+    public TMP_Text TimeText;       //남은시간
+    public TMP_Text HiscordText;    //최고점수
+    public TMP_Text ScoreText;      //현재점수
 
-    private float bonusTime;
+
+
+    private bool isCoCheck = false;
     private bool isGameover;
+    private int Highscore;
+   // private float bonusTime;
+    private float playerScore;
+
+    private void Awake()
+    {
+        
+        playerScore = PlayerPrefs.GetFloat("HiScore");
+        
+
+    }
     // Start is called before the first frame update
     void Start()
     {
-        bonusTime = 5000;
-        isGameover= false;
+
+
+        isGameover = false;
+
+        Highscore = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!isGameover)
+        if (isCoCheck == false && GData.bonusTime != 0)
         {
-            bonusTime += Time.deltaTime * 10;
-            TimeText.text = "5000" + (-1) * (int)bonusTime;
+            isCoCheck = true;
+            StartCoroutine(BonusZeroCheck());
+
         }
-        else 
-        {
-           
-        }
+        TimeText.text = $"{GData.bonusTime}";
+        HiscordText.text = $"HI-{Highscore:D6}";
+        ScoreText.text = $"{GData.gameScore:D6}";
     }
-    public void EndGame() 
+    public void EndGame()
     {
         isGameover = true;
         gameoverText.SetActive(true);
-        ScoreText.text += TimeText.text; 
-        
-        float bestTime = PlayerPrefs.GetFloat("HIScore");
 
-       // if(playerScore > bestTime)
+
+        float bestTime = PlayerPrefs.GetFloat("HiScore");
+
+        if (bestTime < playerScore)
+        {
+            bestTime = playerScore;
+            PlayerPrefs.SetFloat("HiScore", bestTime);
+        }
+
+
+    }
+    public void ClearGame()
+    {
+        isGameover = false;
+    }
+
+    IEnumerator BonusZeroCheck()
+    {
+        yield return new WaitForSeconds(0.2f);
+        GData.bonusTime -= 10;
+        
+        isCoCheck = false;
     }
 }

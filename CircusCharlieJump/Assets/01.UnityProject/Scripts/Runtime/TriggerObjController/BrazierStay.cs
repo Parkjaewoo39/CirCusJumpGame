@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class BrazierStay : MonoBehaviour
 {
-    private Animation brazierAni;
+    public Animation brazierAni = default;
     Animator brazierAnimator;
     private bool isbrazierStop =false;
     // Start is called before the first frame update
@@ -12,6 +13,8 @@ public class BrazierStay : MonoBehaviour
     {
         isbrazierStop= true;
         { return; }
+       
+
     }
 
     // Update is called once per frame
@@ -21,10 +24,11 @@ public class BrazierStay : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
+        
         if (other.tag == "Player")
         {
            
-            brazierAnimator.SetBool("Stop", true);
+            //brazierAnimator.SetTrigger("Stop");
         }
     }
 }
