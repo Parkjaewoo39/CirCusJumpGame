@@ -472,7 +472,7 @@ GameObject:
   - component: {fileID: 40561129}
   - component: {fileID: 40561131}
   - component: {fileID: 40561130}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Meter (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -697,7 +697,7 @@ GameObject:
   - component: {fileID: 111618459}
   - component: {fileID: 111618461}
   - component: {fileID: 111618460}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Meter (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -774,7 +774,7 @@ GameObject:
   - component: {fileID: 232557478}
   - component: {fileID: 232557480}
   - component: {fileID: 232557479}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -909,7 +909,7 @@ GameObject:
   - component: {fileID: 251770332}
   - component: {fileID: 251770334}
   - component: {fileID: 251770333}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1107,7 +1107,7 @@ GameObject:
   - component: {fileID: 294077730}
   - component: {fileID: 294077732}
   - component: {fileID: 294077731}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Meter (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1447,7 +1447,7 @@ GameObject:
   - component: {fileID: 406493405}
   - component: {fileID: 406493407}
   - component: {fileID: 406493406}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2460,7 +2460,7 @@ GameObject:
   - component: {fileID: 615554370}
   - component: {fileID: 615554372}
   - component: {fileID: 615554371}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2667,7 +2667,7 @@ GameObject:
   - component: {fileID: 669152254}
   - component: {fileID: 669152256}
   - component: {fileID: 669152255}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3115,7 +3115,7 @@ GameObject:
   - component: {fileID: 702592291}
   - component: {fileID: 702592290}
   - component: {fileID: 702592289}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: MeterUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3225,7 +3225,7 @@ GameObject:
   - component: {fileID: 703532986}
   - component: {fileID: 703532988}
   - component: {fileID: 703532987}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3360,7 +3360,7 @@ GameObject:
   - component: {fileID: 734189688}
   - component: {fileID: 734189690}
   - component: {fileID: 734189689}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Meter (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3666,7 +3666,7 @@ GameObject:
   - component: {fileID: 861449080}
   - component: {fileID: 861449082}
   - component: {fileID: 861449081}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Meter (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5042,7 +5042,7 @@ GameObject:
   - component: {fileID: 1132481710}
   - component: {fileID: 1132481712}
   - component: {fileID: 1132481711}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Meter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5271,7 +5271,7 @@ GameObject:
   - component: {fileID: 1221046185}
   - component: {fileID: 1221046187}
   - component: {fileID: 1221046186}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Meter (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6148,7 +6148,7 @@ GameObject:
   - component: {fileID: 1466529297}
   - component: {fileID: 1466529299}
   - component: {fileID: 1466529298}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Meter (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6288,7 +6288,7 @@ GameObject:
   - component: {fileID: 1474947174}
   - component: {fileID: 1474947176}
   - component: {fileID: 1474947175}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Meter (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6365,7 +6365,7 @@ GameObject:
   - component: {fileID: 1487668832}
   - component: {fileID: 1487668834}
   - component: {fileID: 1487668833}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Meter (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6553,7 +6553,7 @@ GameObject:
   - component: {fileID: 1545590105}
   - component: {fileID: 1545590107}
   - component: {fileID: 1545590106}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Meter (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6630,7 +6630,7 @@ GameObject:
   - component: {fileID: 1563935670}
   - component: {fileID: 1563935672}
   - component: {fileID: 1563935671}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6945,7 +6945,7 @@ GameObject:
   - component: {fileID: 1606772916}
   - component: {fileID: 1606772918}
   - component: {fileID: 1606772917}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7156,7 +7156,7 @@ GameObject:
   - component: {fileID: 1638115452}
   - component: {fileID: 1638115454}
   - component: {fileID: 1638115453}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7851,7 +7851,7 @@ GameObject:
   - component: {fileID: 1875839817}
   - component: {fileID: 1875839819}
   - component: {fileID: 1875839818}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8318,7 +8318,7 @@ GameObject:
   - component: {fileID: 1997775658}
   - component: {fileID: 1997775660}
   - component: {fileID: 1997775659}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
