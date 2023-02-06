@@ -79,7 +79,7 @@ public class PlayerController : MonoBehaviour
                 if (RightMove)
                 {
                     playerAnimator.SetBool("Run", true);
-                    moveVal = new Vector3(+50f, 0f, 0f);
+                    moveVal = new Vector3(+3f, 0f, 0f);
                     transform.position += moveVal * moveSpeed * Time.deltaTime;
                 }
 
@@ -244,10 +244,20 @@ public class PlayerController : MonoBehaviour
     private void Win()
     {
         playerAnimator.SetTrigger("Win");
+        LoadingStage2();
         GFunc.LoadScene(GData.SCENE_NAME_STAGE_TWO);
 
     }
-
+    public void LoadingStage2()
+    {
+        GFunc.LoadScene(GData.SCENE_NAME_LOAD_STAGE_Two);
+        Time.timeScale = 0.5f;
+    }
+    public void LoadingAndPlayTest()
+    {
+        GFunc.LoadScene(GData.SCENE_NAME_STAGE_ONE);
+        Time.timeScale = 1.0f;
+    }
 
 
 }

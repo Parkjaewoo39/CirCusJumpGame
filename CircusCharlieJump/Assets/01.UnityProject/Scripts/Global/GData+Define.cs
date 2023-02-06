@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public static partial class GData
-{
+{    
     public const string SCENE_NAME_TITLE = "00.TitleScene";
 
-    public const string SCENE_NAME_LOAD_STAGE_ONE = "01.StageScene1";
-    
+    public const string SCENE_NAME_LOAD_STAGE_ONE = "11.StageScene1";
+
+    public const string SCENE_NAME_LOAD_STAGE_Two = "12.StageScene2";
+
 
     public const string SCENE_NAME_STAGE_ONE = "02.PlayStage1";
 
